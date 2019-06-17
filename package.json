@@ -1,5 +1,5 @@
 {
-  "name": "@branu-jp/v-drag",
+  "name": "@syurenyanko/v-drag",
   "version": "0.0.10",
   "description": "A Vue.js draggable directive",
   "main": "lib/index.js",
@@ -25,6 +25,8 @@
   "author": "BRANU",
   "license": "MIT",
   "dependencies": {
+    "@syurenyanko/v-drag": "file:../v-drag",
+    "v-drag": "^2.1.2",
     "vue": "^2.5.16"
   }
 }
